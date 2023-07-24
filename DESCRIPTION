@@ -1,0 +1,12 @@
+Package: ddimport
+Type: Package
+Title: Import and Update Data Files from the Disk to your Project
+Version: 1.0.0
+Author: Adrien Givry
+Maintainer: Adrien Givry <contact@adrien-givry.com>
+Description: ddimport is an R package designed to streamline the process of importing and synchronizing data files within R projects. It ensures data consistency and accuracy by detecting changes in the source data and updating the project accordingly.
+License: MIT
+Imports: digest
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
