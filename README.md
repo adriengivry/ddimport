@@ -33,7 +33,7 @@ This utility provides a function `import_data_from_disk()` that allows you to ea
 1. In your R script or interactive session, load the `ddimport` package:
 
     ```R
-    library("ddimport")
+    library(ddimport)
     ```
 
 2. Call the `import_data_from_disk()` function, providing the file path of the data file you want to import:
@@ -50,7 +50,7 @@ By default, the imported file will be placed directly at the root of your R proj
 
 ```R
 # Import the ddimport package
-library("ddimport")
+library(ddimport)
 
 # Import a data file (fruits.csv) to the "data" folder inside of your R project
 import_data_from_disk("/path/to/data/fruits.csv", "data/fruits.csv")
